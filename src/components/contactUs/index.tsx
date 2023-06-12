@@ -137,8 +137,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ delay: 0.2, duration: 0.8 }}
             variants={{
-              hidden: { opacity: 0, x: 80 },
-              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, y: -80 },
+              visible: { opacity: 1, y: 0 },
             }}
           >
             <div className="flex w-full items-center justify-center md:before:absolute md:before:-bottom-20 md:before:-left-80 md:before:z-[-1] md:before:content-evolvetext">
